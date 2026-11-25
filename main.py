@@ -1,9 +1,6 @@
-from product import (
-    add_product,
-    show_products,
-    deleteProduct,
-    filter_by_price
-)
+from product import *
+
+
 
 from database import load_products
 from csvOperations import write_csv, show_csv_products
